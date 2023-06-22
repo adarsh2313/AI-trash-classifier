@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title> AI Trash-Classifier</title>
+        <link rel="stylesheet" href="{{ url_for('static',filename='styleresult.css') }}" type="text/css">
+    </head>
+    <body>
+        <div class="title-bar">
+            <div class="title">
+                AI Trash-Classifier
+            </div>
+            <div class="github-link">
+                <a href="https://github.com/adarsh2313/AI-trash-classifier" target="_blank" rel="nofollow">
+                    GitHub
+                </a>
+            </div>
+        </div>
+        <div class="textbox">
+            <div class="answerimage">
+                <img src="data:image/jpeg;base64,{{ image }}" width="200px" height="300px">
+            </div>
+            <div class="allthetext">
+                <div class="pretext">
+                    CATEGORY:
+                </div>
+                <div class="answer">
+                    {{answer}}
+                </div>
+                <div class="confidence">
+                    confidence: {{confidence}}%
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

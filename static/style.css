@@ -1,0 +1,88 @@
+.title-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    font-size: 32px;
+    padding-left: 20;
+    font-weight: bold;
+}
+    
+.github-link {
+    font-size: 20px;
+    padding-right: 40;
+    color: white;
+    text-decoration: none;
+}
+
+body{
+    background-image: url("bggfinal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+form{
+    text-align: center;
+}
+.textbox{
+    width: 900px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-width: 8px;
+    border-style: dashed;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textinside{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    align-content: center;
+    padding-left: 30
+}
+.fileinput{
+    margin-top: 40;
+    margin-bottom: 20;
+    align-items: center;
+}
+.fileinput input[type="file"] {
+    padding: 10px;
+    font-size: 18px;;
+  }
+.identify {
+    margin-top: 20;
+    color: black; 
+    font-size: 18px; line-height: 22px; 
+    padding: 5px;
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal;
+    font-variant: normal; 
+    text-transform: none; 
+    display: inline-block;
+}
+.identify:hover{
+    background-color: green;
+}
+.identify:active{
+    background-color: white;
+}
